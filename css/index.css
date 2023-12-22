@@ -1,0 +1,92 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+body {
+  background-color: #213366;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.square {
+  background-color: #0056b0;
+  max-width: 100%;
+  height: 55px;
+  color: white;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-nav .nav-link.active {
+  color: white;
+}
+
+.offcanvas.show .navbar-nav .nav-link {
+  color: black !important;
+}
+
+.sanduiche {
+  background-color: white;
+  border: none;
+}
+
+.sanduiche:focus {
+  box-shadow: none;
+}
+
+.btnResetar {
+  border: 1px solid #213366;
+  color: #213366;
+}
+
+.btnResetar:hover {
+  background-color: #0056b0;
+}
+
+#sub-rodape {
+  background-color: white;
+  border-top: 5px solid #0056b0;
+  margin-top: auto;
+}
+
+#sub-rodape p {
+  font-size: 0.875rem;
+  font-weight: 300;
+  margin: 0;
+  line-height: 1.8;
+}
+
+.entidade-logo {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.entidade-logo img {
+  border-radius: 3px;
+  max-height: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.sucesso {
+  color: green;
+}
+
+.borda-sucesso {
+  border: 1px solid green;
+  color: green;
+}
+
+.borda-fracasso {
+  border: 1px solid red;
+  color: red;
+}
+
+@media (max-width: 576px) {
+  .entidade-info2 {
+    margin-top: 20px;
+  }
+}
